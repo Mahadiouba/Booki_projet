@@ -83,6 +83,10 @@ header {
     border-top: 1px #0065FC solid;
 }
 
+
+/***********Info_Group***********/
+
+
 .search_bar {
     display: flex;
 }
@@ -155,10 +159,6 @@ header {
 
 .list i {
     margin-right: 10px;
-}
-
-.infobar {
-    font-weight: normal;
 }
 
 .infobar i {
@@ -246,11 +246,12 @@ label {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding-bottom: 15px;
 }
 
 .populaires-cards .card {
     display: flex;
-    margin-top: 33px;
+    margin-top: 15px;
 }
 
 .populaires-cards img {
@@ -400,6 +401,11 @@ footer {
     .activites-cards .card-title {
         height: 30px;
     }
+    
+    .filterbar {
+        
+        
+    }
 
     
 }
@@ -454,10 +460,16 @@ footer {
         
     }
 
+    .populaires-title {
+        padding: 20px;
+        background-color: #F2F2F2;
+    }
+
     .populaires-cards {
         background-color: #F2F2F2;
         flex-direction: column;
         align-items: center;
+        padding-bottom: 15px;
     }
 
     .populaires-cards a {
@@ -510,32 +522,26 @@ footer {
 
     .topnav {
         display: flex;  
-        padding: 0px;
-        padding-bottom: 20px;
+        padding: 0px 50px 20px 50px;
     }
 
-    .button_search {
-        padding: 20px 0px;
-        border: solid 1px #D9D9D9;
-        width: 80px;
-        border-top-right-radius: 15px;
-        border-bottom-right-radius: 15px;
-        border-left: 0px;
-        visibility: visible;
-        background-color: #0065FC;
+    .headline {
+        padding: 0px 20px 0px 20px;
     }
 
-    .button_search i {
-        font-size: larger;
-        color: #ffffff;
+    .infobar {
+        text-align: center;
+        margin-bottom: 20px;
     }
 
     .tp1 {
-        
+       
     }
 
     .tp2 {
-        
+        /*width: 100px;
+        text-align: center;
+        padding-right: 0px;*/
     }
 
     .filterbar-title {
@@ -547,7 +553,7 @@ footer {
     }
 
     .list {
-        align-items: center;
+        
     }
 
     .list_1 {
@@ -615,6 +621,22 @@ footer {
         padding-left: 60px;
         padding-right: 60px;
         font-weight: bold;
+    }
+
+    .button_search {
+        padding: 20px 0px;
+        border: solid 1px #D9D9D9;
+        width: 80px;
+        border-top-right-radius: 15px;
+        border-bottom-right-radius: 15px;
+        border-left: 0px;
+        visibility: visible;
+        background-color: #0065FC;
+    }
+
+    .button_search i {
+        font-size: larger;
+        color: #ffffff;
     }
     
     .button {

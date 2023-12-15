@@ -21,7 +21,7 @@ body {
 .main-container {
     width: 100%;
     max-width: 1440px;
-    padding: 0 50px;
+    /*padding: 0 50px;*/
     box-sizing: border-box;
 }
 
@@ -403,11 +403,9 @@ footer {
     }
     
     .filterbar {
-        
-        
+        display: flex;
     }
 
-    
 }
 
 /* Small devices (phones, less than 768px) */
@@ -427,10 +425,6 @@ footer {
 
     .hebergements {
         width: auto;
-    }
-
-    .hebergements_title {
-        
     }
 
     .hebergements-cards .card {
@@ -534,16 +528,6 @@ footer {
         margin-bottom: 20px;
     }
 
-    .tp1 {
-       
-    }
-
-    .tp2 {
-        /*width: 100px;
-        text-align: center;
-        padding-right: 0px;*/
-    }
-
     .filterbar-title {
         padding: 10px 0px 0px 5px;
     }
@@ -552,44 +536,15 @@ footer {
         flex-direction: column;
     }
 
-    .list {
-        
-    }
-
-    .list_1 {
-        display: flex;
-    }
-
-    .list_2 {
-        display: flex;
-    }
-
-    .list ul {
-        font-family: 'Archivo', sans-serif;
-        padding: 10px;
-        text-align: center;
-        display: flex;
-        justify-content: space-around;
-        font-size: 1rem;
-        margin: 10px 15px;
-        border-radius: 25px;
-        border: 2px solid #D9D9D9;
-        width: 160px;
-    }
-
     ol {
         display: flex;
-        list-style-type: decimal;
-        margin-block-start: 1em;
-        margin-block-end: 1em;
-        margin-inline-start: 0px;
-        margin-inline-end: 0px;
         padding-inline-start: 0px;
-        flex-wrap: wrap;
+        
     }
 
     .main-container { 
         padding: 0px;
+        margin: 0px;
     }
 
     body {

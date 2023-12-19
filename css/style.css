@@ -19,9 +19,7 @@ body {
 }
 
 .main-container {
-    width: 100%;
     max-width: 1440px;
-    /*padding: 0 50px;*/
     box-sizing: border-box;
 }
 
@@ -83,6 +81,14 @@ header {
     border-top: 1px #0065FC solid;
 }
 
+.ville {
+    padding-top: 17px;
+}
+
+.button {
+    padding-top: 17px;
+}
+
 
 /***********Info_Group***********/
 
@@ -141,6 +147,10 @@ header {
     padding: 1rem;
 }
 
+.list {
+    margin-left: -40px;
+}
+
 .list ol {
     display: flex;
 }
@@ -194,7 +204,7 @@ label {
 
 /****** Hebergements ***********/
 .hebergements {
-    
+    width: 72%;
 }
 
 .hebergements-cards {
@@ -240,6 +250,7 @@ label {
 /****** Populaires ***********/
 .populaires {
     margin-left: 30px;
+    width:28%;
 }
 
 .populaires-title {
@@ -302,8 +313,8 @@ label {
 }
 
 .activites-cards img {
-    width: 297.5px;
-    height: 439px;
+    width: 255px;
+    height: 360px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
 }
@@ -344,6 +355,15 @@ footer {
 /****** Media queries ***********/
 /* Medium devices (tablets, less/equal than 1024px) */
 @media (max-width: 1024px) {
+
+    .list {
+        margin-top: -25px;
+    }
+
+    .infobar {
+        margin-left: 10px;
+    }
+
     .hebergements-and-populaires {
         flex-direction: column;
     }
@@ -356,6 +376,7 @@ footer {
     .populaires {
         margin-bottom: 30px;
         margin-left: 0px;
+        width:100%;
     }
 
     .populaires-cards {
@@ -380,10 +401,6 @@ footer {
         margin-top: 5%;
     }
     
-    .activites-title {
-        
-    }
-    
     .activites .cards {
         filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.1));
         width: 190px;
@@ -403,7 +420,7 @@ footer {
     }
     
     .filterbar {
-        display: flex;
+        display: inline;
     }
 
 }
@@ -425,6 +442,10 @@ footer {
 
     .hebergements {
         width: auto;
+    }
+
+    .hebergements .section-title {
+        padding: 10px;
     }
 
     .hebergements-cards .card {
@@ -502,6 +523,17 @@ footer {
 
      /* ....... ...... */
 
+    main {
+        display: flex;
+        flex-direction: column;
+        width: auto;
+    }
+
+    .main-container { 
+        display: flex;
+        flex-direction: column;
+    }
+
     header {
         display: block;
     }
@@ -511,7 +543,9 @@ footer {
     }
 
     .menu {
-
+        display: flex;
+        justify-content: center;
+        margin-top: 40px;
     }
 
     .topnav {
@@ -523,32 +557,38 @@ footer {
         padding: 0px 20px 0px 20px;
     }
 
+    .info_group {
+        
+    }
+
     .infobar {
         text-align: center;
         margin-bottom: 20px;
     }
 
     .filterbar-title {
-        padding: 10px 0px 0px 5px;
+        padding: 10px 0px 10px 5px;
     }
 
     .filterbar {
-        flex-direction: column;
-    }
-
-    ol {
-        display: flex;
-        padding-inline-start: 0px;
         
     }
 
-    .main-container { 
-        padding: 0px;
-        margin: 0px;
+    ol {
+        display: flex; 
+    }
+
+    .list_1 {
+        
+    }
+
+    .list_2 {
+        
     }
 
     body {
-        margin: 0px;
+        
+
     }
 
     .topnav:hover {
@@ -572,9 +612,6 @@ footer {
     }
     
     .search_bar .ville {
-        border: solid #D9D9D9 1px;
-        padding-left: 60px;
-        padding-right: 60px;
         font-weight: bold;
     }
 
@@ -605,14 +642,9 @@ footer {
     /***********Footer***********/
 
     footer{
-        width: 100%;
         flex-direction: column;
         margin: 0px;
         margin-top: 20px;
-    }
-
-    .pied_de_page { 
-        
     }
 
 

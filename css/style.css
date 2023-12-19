@@ -203,7 +203,7 @@ label {
 }
 
 /****** Hebergements ***********/
-.hebergements {
+#hebergements {
     width: 72%;
 }
 
@@ -296,7 +296,7 @@ label {
 
 
 /************Activités************/
-.activites {
+#activites {
     margin-top: 5%;
 }
 
@@ -368,7 +368,7 @@ footer {
         flex-direction: column;
     }
 
-    .hebergements {
+    #hebergements {
         width: 100%;
         margin-bottom: 40px;
     }
@@ -397,7 +397,7 @@ footer {
         font-size: 13px;
     }
 
-    .activites {
+    #activites {
         margin-top: 5%;
     }
     
@@ -440,7 +440,7 @@ footer {
         background-color: #ffffff;
     }
 
-    .hebergements {
+    #hebergements {
         width: auto;
     }
 
@@ -494,7 +494,7 @@ footer {
 
     /**********Activités***********/
     
-    .activites{
+    #activites{
         justify-content: center;
     }
 

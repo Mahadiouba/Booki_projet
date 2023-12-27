@@ -18,6 +18,10 @@ body {
     justify-content: center;
 }
 
+main {
+    margin: 0px 10px;
+}
+
 .main-container {
     max-width: 1440px;
     box-sizing: border-box;
@@ -61,6 +65,7 @@ a {
 header {
     display: flex;
     justify-content: space-between;
+    margin: 0px 10px;
 }
 
 .logo img {
@@ -534,6 +539,7 @@ footer {
         display: flex;
         flex-direction: column;
         width: auto;
+        margin: inherit;
     }
 
     .main-container { 
@@ -543,6 +549,7 @@ footer {
 
     header {
         display: block;
+        
     }
 
     .logo{
@@ -554,7 +561,6 @@ footer {
         display: flex;
         justify-content: center;
         margin-top: 40px;
-        
     }
 
     .topnav {

@@ -244,14 +244,14 @@ label {
 }
 
 .hebergements-cards img {
-    width: 243px;
+    width: 273px;
     height: 124px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
 }
 
 .hebergements-cards .card-content {
-    width: Fill (243px);
+    width: 243px;
     padding-bottom: 15px;
     padding-left: 10px;
 }
@@ -337,7 +337,7 @@ label {
 }
 
 .activites-cards img {
-    width: 255px;
+    width: 240px;
     height: 360px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;

@@ -157,24 +157,32 @@ header {
     display: flex;
 }
 
-.list ol {
+/*.list ol {
     display: flex;
-}
+}*/
 
 .list li {
 	font-family: 'Archivo', sans-serif;
-	padding: 10px;
+	padding: 10px 0px;
 	text-align: center;
 	display: inline-block;
 	font-size: 1rem;
-	margin: 10px 15px;
+	margin: 10px 3px;
 	border-radius: 25px;
     border: 2px solid #D9D9D9;
     width: 150px;
 }
 
+.list li:hover {
+    background-color: #DEEBFF;
+}
+
 .list i {
     margin-right: 10px;
+}
+
+.infobar {
+    
 }
 
 .infobar i {
@@ -184,6 +192,9 @@ header {
     width: 30px;
     height: 30px;*/
     margin-right: 10px;
+    border: 1px #D9D9D9 solid;
+    border-radius: 50%;
+    padding: 5px 9px
 }
 
 label {
@@ -520,7 +531,8 @@ footer {
     body {
        display: flex; 
        justify-content: inherit;
-     }
+       margin: 0px;
+    }
 
     main {
         display: flex;
@@ -535,12 +547,12 @@ footer {
     }
 
     header {
-        display: block;
+        /*display: block;*/
+        flex-direction: column;
     }
 
     .logo{
         text-align: center;
-        
     }
 
     .menu {
@@ -567,6 +579,7 @@ footer {
     .infobar {
         margin-left: 20px;
         margin-bottom: 20px;
+        width: 90%;
     }
 
     .filterbar-title {
@@ -574,8 +587,8 @@ footer {
         margin-left: 15px;
     }
 
-    .list ul {
-        /*padding: 10px;*/
+    .list{
+        margin-left:-10px;
     }
 
     .location {

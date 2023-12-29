@@ -569,17 +569,13 @@ footer {
         margin-bottom: 20px;
     }
 
-    .info_group {
-        
-    }
-
     .filterbar-title {
         padding: 10px 0px 10px 5px;
         margin-left: 15px;
     }
 
     .list ul {
-        
+        /*padding: 10px;*/
     }
 
     .location {

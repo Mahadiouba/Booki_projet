@@ -344,7 +344,7 @@ label {
 }
 
 .activites-cards .card-content {
-   margin-left: 20px;
+   margin-left: 15px;
 }
 
 .activites-cards {
@@ -419,16 +419,12 @@ footer {
     
     #activites .cards {
         filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.1));
-        width: 190px;
+        width: 180px;
     }
     
     .activites-cards img {
-        width: 190px;
+        width: 180px;
         height: 200px;
-    }
-    
-    .activites-cards .card-content {
-        width: 190px;
     }
     
     .activites-cards .card-title {
@@ -564,6 +560,7 @@ footer {
     .topnav {
         display: flex;  
         padding: 0px 50px 20px 50px;
+        border-bottom: 1px #D9D9D9 solid;
     }
 
     .topnav:hover {
@@ -588,7 +585,7 @@ footer {
     }
 
     .list{
-        margin-left:-10px;
+        text-align: center;
     }
 
     .location {

@@ -71,6 +71,7 @@ header {
 .logo img {
     width: 80px;
     height: 25px;
+    margin: 10px;
 }
 
 .menu {
@@ -549,6 +550,7 @@ footer {
 
     .logo{
         text-align: center;
+        margin-top: 10px
     }
 
     .menu {

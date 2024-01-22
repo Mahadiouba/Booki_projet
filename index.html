@@ -31,39 +31,46 @@
                 <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
                 <p>En plein centre-ville ou en pleine nature</p>
             </div>
-            <div class="search_bar">
-                <div class="location">
-                    <i class="fa-solid fa-location-dot"></i>
+           
+            <form class="search_bar">
+                <div><i class="fa-solid fa-location-dot fa-lg"></i></div>
+                <input
+                  class="champdesaisie"
+                  type="text"
+                  name="ville"
+                  placeholder="Marseille, France"
+                  required
+                />
+                <button class="button-search" type="submit">
+                  <i class="fa-solid fa-magnifying-glass"></i>
+                  <span>Rechercher</span>
+                </button>
+              </form>
+              <div class="filters">
+                <div class="filter-title">Filtres</div>
+                <div class="filter-main">
+                  <div class="filter">
+                    <i class="fa-solid fa-money-bill-wave"></i>
+                    <div class="label">Economique</div>
+                  </div>
+                  <div class="filter">
+                    <i class="fa-solid fa-child"></i>
+                    <div class="label">Familial</div>
+                  </div>
+                  <div class="filter">
+                    <i class="fa-solid fa-heart"></i>
+                    <div class="label">Romantique</div>
+                  </div>
+                  <div class="filter">
+                    <i class="fa-solid fa-fire"></i>
+                    <div class="label">Nos pépites</div>
+                  </div>
                 </div>
-                    <div class="search">
-                        <div class="ville">
-                            Marseille, France
-                        </div>
-                        <div class="button">
-                            <a href="#">Rechercher</a>
-                        </div>
-                        <button class="button_search">
-                            <i class="fa-solid fa-magnifying-glass"></i>
-                        </button>
-                    </div>
-            </div>
-            <div class="filterbar">
-                <div class="filterbar-title">
-                    <h3>Filtres</h3>
-                </div>
-                <div class="list">  
-                        <ul>
-                            <li><a href="#"><i class="fa-solid fa-money-bill-wave"></i>Économique</a></li>
-                            <li><a href="#"><i class="fa-solid fa-person"></i>Familiale</a></li>
-                            <li><a href="#"><i class="fa-solid fa-heart"></i>Romantique</a></li>
-                            <li><a href="#"><i class="fa-solid fa-fire"></i>Nos pépites</a></li>
-                        </ul>
-                </div>
-            </div>
-            <div class="infobar">
-                <p><i class="fa-solid fa-info"></i>Plus de 500 logements sont disponibles dans cette ville</p>
-            </div>
-
+              </div>
+              <div class="info">
+                <div><i class="fa-solid fa-info"></i></div>
+                <p>Plus de 500 logements sont disponibles dans cette ville</p>
+              </div>
         </div>
 
             <div class="hebergements-and-populaires">

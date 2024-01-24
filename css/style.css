@@ -134,7 +134,6 @@ label {
     display: flex;
     width: 377px;
     height: 49px;
-    /*align-items: center;*/
     gap: 24px;
     border-radius: 15px;
     border: 1px solid #f2f2f2;
@@ -414,10 +413,6 @@ footer {
 /* Medium devices (tablets, less/equal than 1024px) */
 @media (max-width: 1024px) {
 
-    .list {
-        margin-top: -25px;
-    }
-
     .infobar {
         margin-left: 10px;
     }
@@ -467,11 +462,6 @@ footer {
         width: 100%;
         border-top-left-radius: 20px;
         border-top-right-radius: 20px;
-    }
-
-    
-    .filterbar {
-        display: inline;
     }
 
 }
@@ -533,13 +523,12 @@ footer {
     }
 
     .populaires-cards a {
-        margin: 5px;
         width: 90%;
     }
 
     .populaires-cards .card {
         width: 100%;
-        margin: 2%;
+        margin: 3%;
     }
 
     /**********Activités***********/
@@ -585,7 +574,6 @@ footer {
     .main-container { 
         display: flex;
         flex-direction: column;
-        padding: inherit;
     }
 
     header {
@@ -669,12 +657,7 @@ footer {
     }
 
     .info {
-        width: 100%;
-        height: auto;
-    }
-
-    .info-group p {
-        font-size: 15px;
+        margin-bottom: 20px;
     }
 
     .button-search span {
